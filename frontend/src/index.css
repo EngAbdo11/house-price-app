@@ -1,0 +1,58 @@
+:root {
+  /* Color -- cool paper ground, deep ink text, emerald as the working accent,
+     brass reserved for the single valuation moment on the result page. */
+  --ink: #17212b;
+  --ink-soft: #4b5a63;
+  --paper: #f4f6f5;
+  --surface: #ffffff;
+  --line: #d9e0de;
+  --teal: #0e7c71;
+  --teal-dark: #0b6259;
+  --gold: #b98a32;
+  --error: #b3261e;
+  --error-bg: #fbeceb;
+
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-body: "Manrope", ui-sans-serif, system-ui, sans-serif;
+
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: var(--teal-dark);
+}
+
+button {
+  font-family: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

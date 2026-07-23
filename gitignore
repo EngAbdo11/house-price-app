@@ -1,0 +1,22 @@
+# --- Python ---
+.venv/
+__pycache__/
+*.pyc
+
+# --- Node ---
+node_modules/
+dist/
+
+# --- Environment secrets ---
+.env
+
+# --- Logs ---
+*.log
+
+# --- Raw dataset (large -- see README "Dataset" section for download steps) ---
+notebooks/data/
+*.csv
+
+# --- OS / editor cruft ---
+.DS_Store
+.vscode/
