@@ -199,7 +199,7 @@ trained on both raw and `log1p`-transformed price (see notebook section
 
 | Model | Log target | MAE (₹) | RMSE (₹) | R² |
 |---|---|---|---|---|
-| _TBD -- winning row from `results_df`_ | | | | |
+| _RandomForestRegressor  -- winning row from `results_df`_ | | | | |
 
 5-fold cross-validated RMSE (from the `cross_val_score` bonus cell): `<fill in>`
 
